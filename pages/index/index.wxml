@@ -1,6 +1,12 @@
 <!--index.wxml-->
+
+
+
+
+
 <view wx:if="{{userInformation}}">
   <view id = "userInfo" class="cell">
+  <image id="userInfoBack"  src="{{imguserinfo}}"></image>
       <image class = "avatar" src="{{imgurl}}"> </image>
       <view class = "userInfoText">
           <view class = "userName">{{nickName}}</view>
@@ -13,22 +19,29 @@
 </view>
 
 <view id="newGame" class="cell" bindtap='toNewGame'>
-    <view > 新建  </view>
-    <view > 游戏  </view>
+   <image id="newGameBackG" class="newGame" src="{{imgnewgame}} "></image> 
+    <view id="newGameText" class="newGame">新建游戏</view>
+    
 </view>
 
 <view id = "result" class="cell" bindtap='toResult'>
-    <view > 战绩  </view>
-    <view > 查询  </view>
+  <image id="resultBackG"  src="{{imgresult}} "></image> 
+    <view id="resultText" class="result"> 战绩查询</view>
+    
 </view>
 
-
-<view id="help" class="cell" bindtap='toHelp'>帮助</view>
+<view id="help" class="cell">
+<image id="helpBackG"  src="{{imghelp}} "></image> 
+<view id="helpText"  bindtap='toHelp'>帮助</view>
+</view>
 
 <view id="pk" class="cell" bindtap='toFight'>
-    <view > 好友  </view>
-    <view > 对战  </view>
+    <image id="pkBackG"  src="{{imgpk}} "></image>
+    <view id="pkText" class='pk'> 好友对战  </view>
+
 </view>
 
-<view id="setting" class="cell" bindtap='toSetting'> 设置 </view>
-
+<view id='setting' class='sell'>
+  <image id="settingBackG"  src="{{imgsetting}} "></image>
+  <view id="settingText" class="setting" bindtap='toSetting'> 设置 </view>
+</view>

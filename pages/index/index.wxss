@@ -1,8 +1,17 @@
 /**index.wxss**/
+page{
+    height: 100%;
+    width: 100%;
+   
+}
 
+.backview{
+  height: 100%;
+  width:100%;
+}
 .cell{
-    border:3px solid black;
-    border-radius: 24rpx;
+    border:1px solid black;
+    border-radius: 12rpx;
 }
 
 #authorize{
@@ -11,20 +20,30 @@
   width: 220rpx;
 }
 
+
+
 #userInfo{
     height: 200rpx;
     width: 592rpx;
-    left: 79rpx;
-    top: 80rpx;
+    left: 66rpx;
+    top: 30rpx;
+    border-color: white;
     position: absolute;
+}
+#userInfoBack{
+  
+  height: 200rpx;
+  width: 592rpx;
+  position: absolute;
+  border-radius: 6rpx;
 }
 
 .avatar{
     height: 160rpx;
     width: 160rpx;
     position: relative;
-    top: 20rpx;
-    left: 40rpx;
+    top: 17rpx;
+    left: 45rpx;
     border-radius: 80rpx;
 }
 
@@ -32,8 +51,11 @@
     width: 392rpx;
     height: 200rpx;
     position: relative;
-    top: -172rpx;
+    top: -160rpx;
     left: 200rpx;
+    font-size: 40rox;
+    color: black;
+    font-family: STZhongsong;
 }
 
 .userName{
@@ -56,55 +78,110 @@
 
 #newGame{
     position: absolute;
-    top: 308rpx;
-    left: 79rpx;
-    width: 280rpx;
-    height: 350rpx;
-    line-height: 175rpx;
-    font-size: 90rpx;
-    text-align: center;
+    border-color:azure;
+    top: 290rpx;
+    left: 43rpx;
+    width: 319rpx;
+    height: 370rpx;
+     
+}
+#newGameText{
+  position: absolute;
+  line-height: 80rpx;
+    font-size: 40rpx;
+    text-indent: 20rpx;
+}
+#newGameBackG{
+   border-radius: 12rpx;
+    width: 319rpx;
+    height: 370rpx;
+    position: absolute;
+    border-radius: 12rpx;
+  
 }
 
 #result{
     position: absolute;
-    top: 308rpx;
-    left: 391rpx;
-    width: 280rpx;
-    height: 250rpx;
-    line-height: 125rpx;
-    font-size: 70rpx;
-    text-align: center;
+    border-color:antiquewhite;
+    top: 290rpx;
+    left: 385rpx;
+    width: 319rpx;
+    height: 275rpx;
+}
+#resultBackG{
+  width: 319rpx;
+    height: 275rpx;
+    position: absolute;
+    border-radius: 12rpx;
+}
+#resultText{
+  line-height: 80rpx;
+    font-size: 40rpx;
+    text-indent: 20rpx;
+    position: absolute;
 }
 
 #help{
     position: absolute;
-    top: 686rpx;
-    left: 79rpx;
-    width: 280rpx;
-    height: 250rpx;
-    line-height: 250rpx;
-    font-size: 90rpx;
-    text-align: center;
+    border-color:antiquewhite;
+    top: 680rpx;
+    left: 43rpx;
+    width: 286rpx;
+    height: 275rpx;
+    
 }
-
+#helpBackG{
+  position: absolute;
+width: 319rpx;
+    height: 275rpx;
+    border-radius: 12rpx;
+}
+#helpText{
+  position: absolute;
+line-height: 80rpx;
+    font-size: 40rpx;
+    text-indent: 20rpx;
+}
 #pk{
     position: absolute;
-    top: 586rpx;
-    left: 391rpx;
-    width: 280rpx;
-    height: 350rpx;
-    line-height: 175rpx;
-    font-size: 90rpx;
-    text-align: center;
+    border-color:white;
+    top: 585rpx;
+    left: 385rpx;
+    width: 319rpx;
+    height: 370rpx;
+    
+}
+#pkBackG{
+  position: absolute;
+    width: 319rpx;
+    height: 370rpx;
+    border-radius: 12rpx;
+}
+#pkText{
+  position: absolute;
+    line-height: 80rpx;
+    font-size: 40rpx;
+    text-indent: 20rpx;
 }
 
 #setting{
     position: absolute;
-    top: 964rpx;
-    left: 79rpx;
+    border-color:white;
+    top: 975rpx;
+    left: 43rpx;
     height: 120rpx;
-    width: 592rpx;
-    line-height: 120rpx;
-    font-size: 70rpx;
-    text-align: center;
+    width: 674rpx;
+    
+}
+#settingBackG{
+   position: absolute;
+  height: 120rpx;
+    width: 674rpx;
+    border-radius: 12rpx;
+}
+#settingText{
+   position: absolute;
+  line-height: 150rpx;
+    font-size: 40rpx;
+    text-indent: 20rpx;
 }

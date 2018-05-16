@@ -8,8 +8,16 @@ Page({
   data: {
     buttonClicked: true,
     imgurl: '',
+    imgback:'/images/background.jpg',
+    imguserinfo:'/images/userinfo.jpg',
+    imgnewgame:'/images/newgame.jpg',
+    imgresult:'/images/result.jpg',
+    imghelp:'/images/help.jpg',
+    imgpk:'/images/pk.jpg',
+    imgsetting:'/images/setting.jpg',
     nickname: "",
     userInformation: true
+    
   },
   onReady() {
     wx.getSetting({
